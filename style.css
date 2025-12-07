@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(
+    circle at top left,
+    #a1c4fd 0%,
+    #c2e9fb 25%,
+    #fbc2eb 50%,
+    #a6c1ee 100%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.btn-container a {
+  display: block;
+  background-color: rgb(255, 174, 127);
+  padding: 10px 30px;
+  font-size: 25px;
+  width: 8rem;
+  text-decoration: none;
+  color: #000;
+  border-radius: 20px;
+}
+.btn-container a:hover {
+  background-color: rgb(250, 137, 72);
+}
+
+.btn-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.heading-1 {
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+.heading-2 {
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+
+.header {
+  margin: 10px 0px 50px 0px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  color: green;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.login-form {
+  border: 1px solid rgb(176, 176, 176);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 50px;
+}
+
+.login-form input {
+  padding: 8px;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.login-form label {
+  font-size: 20px;
+}
+
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+.login-form a {
+  background-color: #13b313;
+  padding: 10px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  width: 100px;
+  margin: 0px 10px;
+}
+
+.login-form a:hover {
+  background-color: #0d740d;
+}
+
+.form-header {
+  margin: 50px 0px;
+  text-transform: uppercase;
+}
+
+.student-form {
+  border: 1px solid rgb(176, 176, 176);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.student-form input[type="text"],
+.student-form input[type="email"],
+.student-form input[type="password"],
+.student-form input[type="date"],
+.student-form select {
+  padding: 8px;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.student-form select {
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.student-form input:focus,
+.student-form select:focus {
+  border-color: #13b313;
+  box-shadow: 0 0 5px rgba(19, 179, 19, 0.5);
+}
+
+.student-form label {
+  font-size: 20px;
+}
+
+.student-form input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 5px;
+  transform: scale(1.2);
+}
+
+.student-form a {
+  background-color: #13b313;
+  padding: 10px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  width: 100px;
+  margin: 0px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.student-form a:hover {
+  background-color: #0d740d;
+}
+
+.trainer-form {
+  border: 1px solid rgb(176, 176, 176);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.trainer-form input[type="text"],
+.trainer-form input[type="email"],
+.trainer-form input[type="password"],
+.trainer-form input[type="date"],
+.trainer-form select,
+.trainer-form textarea {
+  padding: 8px;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.trainer-form textarea {
+  width: 60%;
+  resize: vertical;
+  min-height: 80px;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.trainer-form select {
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.trainer-form input:focus,
+.trainer-form select:focus,
+.trainer-form textarea:focus {
+  border-color: #13b313;
+  box-shadow: 0 0 5px rgba(19, 179, 19, 0.5);
+}
+
+.trainer-form label {
+  font-size: 20px;
+}
+
+.trainer-form input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 5px;
+  transform: scale(1.2);
+}
+
+.trainer-form a {
+  background-color: #13b313;
+  padding: 10px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  width: 100px;
+  margin: 0px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.trainer-form a:hover {
+  background-color: #0d740d;
+}
+
+.emp-form {
+  border: 1px solid rgb(176, 176, 176);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.emp-form input[type="text"],
+.emp-form input[type="email"],
+.emp-form input[type="password"],
+.emp-form input[type="date"],
+.emp-form input[type="number"],
+.emp-form select,
+.emp-form textarea {
+  padding: 8px;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.emp-form textarea {
+  width: 60%;
+  resize: vertical;
+  min-height: 80px;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.emp-form select {
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.emp-form input:focus,
+.emp-form select:focus,
+.emp-form textarea:focus {
+  border-color: #13b313;
+  box-shadow: 0 0 5px rgba(19, 179, 19, 0.5);
+}
+
+.emp-form label {
+  font-size: 20px;
+}
+
+.emp-form input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 5px;
+  transform: scale(1.2);
+}
+
+.emp-form a {
+  background-color: #13b313;
+  padding: 10px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  width: 100px;
+  margin: 0px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.emp-form a:hover {
+  background-color: #0d740d;
+}
+
+.form-cancel-btn {
+  background-color: #13b313;
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  display: inline-block;
+  width: 150px;
+  margin: 0px 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.form-cancel-btn:hover {
+  background-color: #0d740d;
+}

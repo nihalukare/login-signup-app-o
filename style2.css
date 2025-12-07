@@ -1,0 +1,128 @@
+@media (max-width: 430px) {
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    justify-content: normal;
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
+
+  .heading-1 {
+    margin-bottom: 50px;
+    font-size: 0.8rem;
+  }
+
+  .heading-2 {
+    margin-bottom: 50px;
+    font-size: 0.9rem;
+  }
+
+  .login-form {
+    padding: 20px;
+  }
+
+  .login-form a {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+
+  .login-form input {
+    display: block;
+    width: 100%;
+  }
+
+  .login-form {
+    width: 75%;
+  }
+
+  .login-form label {
+    text-align: left;
+    display: block;
+  }
+
+  .btn-container a {
+    font-size: 18px;
+    width: 10rem;
+  }
+
+  .trainer-form {
+    padding: 20px;
+    width: 80%;
+  }
+
+  .trainer-form input {
+    width: 100% !important;
+  }
+
+  .trainer-form a {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+
+  .student-form a {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+
+  .student-form {
+    padding: 20px;
+    width: 80%;
+  }
+
+  .student-form input {
+    width: 100% !important;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+
+  .emp-form {
+    padding: 20px;
+    width: 80%;
+  }
+
+  .emp-form input {
+    width: 100% !important;
+  }
+
+  .emp-form a {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+
+  .form-cancel-btn {
+    display: block;
+    width: 120px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  d-flex {
+    display: flex;
+  }
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+}

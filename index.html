@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Task 2</title>
+</head>
+
+<body>
+    <div class="header">
+        Good Afternoon today is Friday
+    </div>
+    <div class="heading-1">
+        <h1>PSK Technologies pvt.ltd IT company</h1>
+    </div>
+    <div class="heading-2">
+        <h2>
+            Attendance Portal
+        </h2>
+    </div>
+    <div class="btn-container">
+        <a href="studentLogin.html">Student Login</a>
+        <a href="trainerLogin.html">Trainer Login</a>
+        <a href="empLogin.html">Employee Login</a>
+    </div>
+    <div class="btn-container">
+        <a href="studentReg.html">Student Sign up</a>
+        <a href="trainerReg.html">Trainer Sign up</a>
+        <a href="empReg.html">Employee Sign up</a>
+    </div>
+
+    <script>
+        const date = new Date();
+        const header = document.getElementsByClassName("header")[0];
+        let hour = date.getHours();
+        let greetings;
+
+        if (hour < 12) greetings = "Good Morning"
+        else if (hour >= 12 && hour < 16) greetings = "Good Afternoon"
+        else if (hour <= 16 && hour < 20) greetings = "Good Evening"
+        else greetings = "Good Night"
+
+        const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const day = days[date.getDay()];
+
+        header.innerText = greetings + " today is " + day;
+
+    </script>
+
+</body>
+
+</html>
